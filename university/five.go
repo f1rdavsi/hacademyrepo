@@ -1,0 +1,5 @@
+package university
+
+func Univer() {
+
+}
