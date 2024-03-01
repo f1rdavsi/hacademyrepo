@@ -1,5 +1,0 @@
-package university
-
-func Univer() {
-
-}

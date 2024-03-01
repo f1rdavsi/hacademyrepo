@@ -8,7 +8,6 @@ func Multiplication() {
 		fmt.Println("___________")
 		for j := 1; j < 10; j++ {
 			fmt.Println(i, "x", j, "=", i*j)
-
 		}
 
 	}

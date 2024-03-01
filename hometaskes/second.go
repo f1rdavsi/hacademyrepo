@@ -30,7 +30,8 @@ func Jubilee() {
 	log.Println("Программа запущена")
 	fmt.Println("Вы выбрали задание Юбилей. Введите свой возраст:")
 	fmt.Scan(&Age)
-	fmt.Println("Вам осталолось", 5-Age%5, "лет до вашего юбилея.")
+	const Five int = 5
+	fmt.Println("Вам осталолось", Five-Age%Five, "лет до вашего юбилея.")
 	log.Println("Программа завершила свою работу.")
 }
 func RectangleArea() {
@@ -39,7 +40,6 @@ func RectangleArea() {
 		"Введите длину")
 	fmt.Scan(&RectangleLengh)
 	fmt.Println("Введите ширину")
-
 	fmt.Scan(&RectangleWidth)
 	fmt.Println("Площадь прямоугольника равна", RectangleWidth*RectangleLengh)
 
